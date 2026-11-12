@@ -1,0 +1,15 @@
+# --- DOCX to Markdown ---
+python-docx>=1.2.0
+
+# --- PDF & Document Conversion ---
+# Requires >=0.5.8 to avoid compatibility crashes with newer PyMuPDF releases
+pdf2docx>=0.5.8
+PyMuPDF>=1.27.2
+pymupdf4llm>=1.27.2.3
+
+# --- Jupyter & WebPDF Export ---
+nbconvert[webpdf]>=7.0.0
+jupyter>=1.0.0
+
+# NOTE: After pip install, you must run 'playwright install' in your terminal
+playwright>=1.40.0
